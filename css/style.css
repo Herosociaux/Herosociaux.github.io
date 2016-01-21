@@ -314,4 +314,31 @@ header::after {
   letter-spacing: 2px
 }
 
+.suggestions {
+  position: fixed;
+  top: 185px; left: 32px;
+  max-width: 255px;
+  z-index: 9999;
+  background-color: rgba(105, 105, 105, 0.5);
+  text-align: center;
+  color: white;
+  padding: 10px;
 
+}
+
+.suggestions>a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: #F29532;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 800px){
+  .suggestions {
+    top:356px !important;
+  }
+}
