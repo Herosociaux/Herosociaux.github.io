@@ -342,21 +342,3 @@ header::after {
     top:356px !important;
   }
 }
-
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and ( min--moz-device-pixel-ratio: 2),
-only screen and ( -o-min-device-pixel-ratio: 2/1),
-only screen and ( min-device-pixel-ratio: 2),
-only screen and ( min-resolution: 300dpi),
-only screen and ( min-resolution: 2dppx) {
-    /* Retina-specific stuff here */
-
-  * {
-    font-size: 100px;
-  }
-  html,body {
-    background-color: blue;
-  }
-	}
