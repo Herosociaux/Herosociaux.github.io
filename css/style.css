@@ -353,7 +353,10 @@ only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx) {
     /* Retina-specific stuff here */
 
-  html,body {
+  * {
     font-size: 100px;
+  }
+  html,body {
+    background-color: blue;
   }
 	}
