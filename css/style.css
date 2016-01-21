@@ -153,6 +153,11 @@ main>.titre{
   .expliP{
     height: 220px;
   }
+
+  .exemple>img{
+  margin: auto;
+  width: 28%;
+}
 }
 
 
@@ -187,7 +192,9 @@ main>.titre{
     height: 100%;
   }
 
-
+  .exemple>img{
+  margin: auto;
+  width: 300px;
 
 }
 
@@ -310,7 +317,4 @@ header::after {
   width: 300px;
 }
 
-.exemple>img{
-  margin: auto;
-  width: 300px;
-}
+
