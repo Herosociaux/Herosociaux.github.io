@@ -194,8 +194,9 @@ main>.titre{
 
   .exemple>img{
   margin: auto;
-  width: 300px;
+  width: 250px;
 
+}
 }
 
 main form{
@@ -311,10 +312,6 @@ header::after {
 
 .exemple>h1{
   letter-spacing: 2px
-}
-
-.prez{
-  width: 300px;
 }
 
 
