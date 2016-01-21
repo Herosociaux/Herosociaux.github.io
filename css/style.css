@@ -359,3 +359,8 @@ header::after {
 .expli p {
   font-size: 20px !important;
 }
+
+
+.expliP {
+  margin-top: 4% !important;
+}
