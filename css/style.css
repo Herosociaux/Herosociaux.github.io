@@ -337,7 +337,7 @@ header::after {
   font-weight: 900;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (max-width: 900px){
   .suggestions {
     top:356px !important;
   }
