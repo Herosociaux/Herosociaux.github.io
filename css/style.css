@@ -282,3 +282,11 @@ header::after {
   position: relative;
   top: 50px;
 }
+
+.titre {
+  margin: 0;
+}
+
+.titre h1 {
+  margin: 0 !important;
+}
