@@ -363,5 +363,9 @@ header::after {
 
 .expliP {
   margin-top: 4% !important;
-  margin-bottom: 4% !important;
+  margin-bottom: 7% !important;
+}
+
+.expli:hover {
+  background-color: rgba(242, 149, 50, 0.5);;
 }
