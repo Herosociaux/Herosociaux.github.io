@@ -111,11 +111,7 @@ main>.titre{
   line-height: 80px;
 }
 
-main>h1{
-  text-align: center;
-  font-size: 200%;
-  color: #222222;
-}
+
 
 .expliP{
   width: 90%;
@@ -138,19 +134,25 @@ main>h1{
     float: left;
     text-align: center;
     padding: 5px;
-    margin-bottom: 10%;
     color: #222222;
   }
 
+  .titre>h1{
+    line-height: 100px;
+  }
 
-footer{
-  width: 100%;
-  background-color: #3D3D3D;
-  text-align: center;
-  position: fixed;
-  bottom: 0px;
-  padding: 7px;
-}
+  footer{
+      width: 100%;
+      background-color: #3D3D3D;
+      text-align: center;
+      position: fixed;
+      bottom: 0px;
+      padding: 7px;
+  }
+
+  .expliP{
+    height: 220px;
+  }
 }
 
 
@@ -170,7 +172,9 @@ footer{
   text-align: center;
     padding: 10px;
   }
-
+.exemple>img{
+    display: block;
+  }
 
 }
 
@@ -182,6 +186,8 @@ footer{
   header {
     height: 100%;
   }
+
+
 
 }
 
@@ -289,4 +295,22 @@ header::after {
 
 .titre h1 {
   margin: 0 !important;
+}
+
+.exemple{
+  text-align: center;
+  letter-spacing: 30px;
+}
+
+.exemple>h1{
+  letter-spacing: 2px
+}
+
+.prez{
+  width: 300px;
+}
+
+.exemple>img{
+  margin: auto;
+  width: 300px;
 }
