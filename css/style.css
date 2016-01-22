@@ -338,15 +338,18 @@ header::after {
 
 }
 
-.suggestions>a {
+.questionnaire>a {
   display: inline-block;
   text-decoration: none;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 25px;
   text-transform: uppercase;
   background-color: #F29532;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #F29532, 0px 1px 2px #fff inset;
 }
 
 @media screen and (max-width: 900px){
@@ -367,5 +370,63 @@ header::after {
 }
 
 .expli:hover {
-  background-color: rgba(242, 149, 50, 0.5);;
+  background-color: rgba(242, 149, 50, 0.5);
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.questionnaire {
+  max-height: 200px;
+  max-width: 250px;
+  background-color: #3d3d3d;
+  text-align: center;
+  padding: 10px 5px 15px 5px;
+  margin: 250px auto;
+  color: #fff;
+  line-height: 1.6;
+  font-weight: bold;
+  box-shadow: 0px 0px 30px black;
+  border-radius: 5px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: -5px; right: -5px;
+  height: 15px; width: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);;
+  box-shadow: 0px 0px 10px #F29532;
+  cursor: pointer;
+}
+
+.close-button::after {
+  content: " ";
+  height: 3px; width: 10px;
+  background-color: #F29532;
+  transform: rotate(45deg);
+  transform-origin: center;
+  display: block;
+  position: relative;
+  top: 6px; left: 3px;
+
+
+}
+
+.close-button::before {
+  content: " ";
+  height: 3px; width: 10px;
+  background-color: #F29532;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  top: 6px; left: 3px;
 }

@@ -1,9 +1,21 @@
 $(document).ready(function(){
-  $('.suggestions').hide();
+  $('.overlay').hide();
 
     setTimeout(function() {   //calls click event after a certain time
-       $('.suggestions').fadeIn();
-    }, 2000);
+       $('.overlay').fadeIn();
+    }, 30000);
+
+
+
+    $('.overlay').click(function(){
+      $('.overlay').fadeOut();
+
+    });
+     $('.close-button').click(function(){
+       $('.overlay').fadeOut();
+
+     });
+
 
 
 
