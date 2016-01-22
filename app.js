@@ -1,9 +1,7 @@
 $(document).ready(function(){
   $('.overlay').hide();
 
-    setTimeout(function() {   //calls click event after a certain time
-       $('.overlay').fadeIn();
-    }, 30000);
+
 
 
 
@@ -16,6 +14,10 @@ $(document).ready(function(){
 
      });
 
+     $('.on-click').click(function(){
+       $('.overlay').fadeIn();
+
+     });
 
 
 
